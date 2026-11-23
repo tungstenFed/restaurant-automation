@@ -8,7 +8,7 @@ interface QrLandingPageProps {
   params: Promise<{ slug: string }>;
 }
 
-function formatSlugFallback(slug: string): string {
+function formatSlugFallback(slug: string): string { //Aura
   return slug
     .split(/[-_]+/)
     .filter(Boolean)
